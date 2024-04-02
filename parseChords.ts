@@ -104,6 +104,7 @@ const CHUNKS: string[] = [
   "maj13",
   "maj7",
   "maj9",
+  "+7", // maj7
   "7M", // maj7
   "maj", // maj7
   "M7", // maj7
@@ -217,6 +218,8 @@ const parseChord = (chord: string): Chord | null => {
     properties.push("5");
   } else if (chord === "6") {
     properties.push("6");
+  } else if (chord === "3") {
+    properties.push("3");
   } else if (chord !== "") {
     console.log("    NOT PARSED", chord, sourceChord);
   }
