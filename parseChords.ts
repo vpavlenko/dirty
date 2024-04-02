@@ -96,6 +96,7 @@ const CHUNKS: string[] = [
   "add9",
   "add2",
   "add4",
+  "add6",
   "add13-",
   "add-13",
   "addb13",
@@ -181,13 +182,19 @@ const parseChord = (chord: string): Chord | null => {
     chord === "m7-5" ||
     chord === "7-5" ||
     chord === "m5-" ||
+    chord === "m-5" ||
     chord === "m75-" ||
     chord === "5-" ||
     chord === "maj7b5" ||
     chord === "M7b5" ||
+    chord === "7b5" ||
+    chord === "-5" ||
+    chord === "(b5)" ||
     chord === "dim7" ||
     chord === "dim" ||
-    chord === "o"
+    chord === "o" ||
+    chord === "°" ||
+    chord === "º"
   ) {
     // I don't distinguish dim7 and m7b5 as I don't care about types of seventh chords for now
     triadQuality = "dim";
@@ -198,7 +205,7 @@ const parseChord = (chord: string): Chord | null => {
     chord === "mi"
   ) {
     triadQuality = "minor";
-  } else if (chord === "m7+") {
+  } else if (chord === "m7+" || chord === "m#7") {
     triadQuality = "minor";
     properties.push("maj7");
   } else if (chord === "aug" || chord === "+" || chord === "+5") {
