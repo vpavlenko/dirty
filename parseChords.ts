@@ -124,7 +124,7 @@ const CHUNKS: string[] = [
   "/#5",
   "#5",
   "/b13",
-  'b13',
+  "b13",
   "#9",
   "M9", // maj7 + add9
 ];
@@ -198,6 +198,9 @@ const parseChord = (chord: string): Chord | null => {
     chord === "mi"
   ) {
     triadQuality = "minor";
+  } else if (chord === "m7+") {
+    triadQuality = "minor";
+    properties.push("maj7");
   } else if (chord === "aug" || chord === "+" || chord === "+5") {
     triadQuality = "aug";
   } else if (chord === "7+" || chord === "7+5") {
