@@ -194,7 +194,7 @@ const parseChord = (chord: string): Chord | null => {
     chord === "mi"
   ) {
     triadQuality = "minor";
-  } else if (chord === "aug" || chord === "+") {
+  } else if (chord === "aug" || chord === "+" || chord === "+5") {
     triadQuality = "aug";
   } else if (chord === "7+" || chord === "7+5") {
     triadQuality = "aug";
@@ -232,6 +232,9 @@ const parseChord = (chord: string): Chord | null => {
   } else if (chord === "3") {
     properties.push("3");
   } else if (chord !== "") {
+    if (chord === "m#" && sourceChord.includes("m#")) {
+      return parseChord(sourceChord.replace("m#", "#m"));
+    }
     console.log("    NOT PARSED", chord, sourceChord);
   }
 

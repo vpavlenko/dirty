@@ -1559,8 +1559,7 @@ Dsus2/B { root: 2, bass: 11, triadQuality: 'major', properties: [ 'sus2' ] }
 
 F#/G# { root: 6, bass: 8, triadQuality: 'major', properties: [] }
 
-    NOT PARSED m# Fm#
-Fm# { root: 5, bass: null, triadQuality: 'major', properties: [] }
+Fm# { root: 6, bass: null, triadQuality: 'minor', properties: [] }
 
 Dmaj7/F# { root: 2, bass: 6, triadQuality: 'major', properties: [ 'maj7' ] }
 
@@ -2143,8 +2142,7 @@ SOL# { root: 8, bass: null, triadQuality: 'major', properties: [] }
 
 Gm/F# { root: 7, bass: 6, triadQuality: 'minor', properties: [] }
 
-    NOT PARSED m# Cm#
-Cm# { root: 0, bass: null, triadQuality: 'major', properties: [] }
+Cm# { root: 1, bass: null, triadQuality: 'minor', properties: [] }
 
 F#13 {
   root: 6,
@@ -2198,8 +2196,7 @@ A9sus4 {
   properties: [ 'sus4', '7', '9' ]
 }
 
-    NOT PARSED +5 G+5
-G+5 { root: 7, bass: null, triadQuality: 'major', properties: [] }
+G+5 { root: 7, bass: null, triadQuality: 'aug', properties: [] }
 
 Gm6/E { root: 7, bass: 4, triadQuality: 'minor', properties: [ '6' ] }
 
@@ -2248,8 +2245,7 @@ A6/9 { root: 9, bass: null, triadQuality: 'major', properties: [ '6/9' ] }
 
 G#m11 { root: 8, bass: null, triadQuality: 'minor', properties: [ '11' ] }
 
-    NOT PARSED +5 A+5
-A+5 { root: 9, bass: null, triadQuality: 'major', properties: [] }
+A+5 { root: 9, bass: null, triadQuality: 'aug', properties: [] }
 
 F#2 { root: 6, bass: null, triadQuality: 'major', properties: [ '2' ] }
 
@@ -2403,8 +2399,7 @@ Bb+ { root: 10, bass: null, triadQuality: 'aug', properties: [] }
 
 G#maj { root: 8, bass: null, triadQuality: 'major', properties: [ 'maj' ] }
 
-    NOT PARSED +5 D+5
-D+5 { root: 2, bass: null, triadQuality: 'major', properties: [] }
+D+5 { root: 2, bass: null, triadQuality: 'aug', properties: [] }
 
 F#m/F { root: 6, bass: 5, triadQuality: 'minor', properties: [] }
 
@@ -2765,8 +2760,7 @@ A-5 { root: 9, bass: null, triadQuality: 'major', properties: [] }
 
 F#* { root: 6, bass: null, triadQuality: 'major', properties: [ '*' ] }
 
-    NOT PARSED m# Gm#
-Gm# { root: 7, bass: null, triadQuality: 'major', properties: [] }
+Gm# { root: 8, bass: null, triadQuality: 'minor', properties: [] }
 
 Aadd9/E { root: 9, bass: 4, triadQuality: 'major', properties: [ 'add9' ] }
 
@@ -2857,8 +2851,7 @@ Dsus7 {
   properties: [ 'sus', '7' ]
 }
 
-    NOT PARSED +5 E+5
-E+5 { root: 4, bass: null, triadQuality: 'major', properties: [] }
+E+5 { root: 4, bass: null, triadQuality: 'aug', properties: [] }
 
 Emaj7/B { root: 4, bass: 11, triadQuality: 'major', properties: [ 'maj7' ] }
 
@@ -3099,8 +3092,7 @@ D7+5 { root: 2, bass: null, triadQuality: 'aug', properties: [ '7' ] }
 
 F6/A { root: 5, bass: 9, triadQuality: 'major', properties: [ '6' ] }
 
-    NOT PARSED m# Dm#
-Dm# { root: 2, bass: null, triadQuality: 'major', properties: [] }
+Dm# { root: 3, bass: null, triadQuality: 'minor', properties: [] }
 
 C#7#9 {
   root: 1,
@@ -3227,8 +3219,7 @@ Bbm/Eb { root: 10, bass: 3, triadQuality: 'minor', properties: [] }
 
 B7/Eb { root: 11, bass: 3, triadQuality: 'major', properties: [ '7' ] }
 
-    NOT PARSED m# Am#
-Am# { root: 9, bass: null, triadQuality: 'major', properties: [] }
+Am# { root: 10, bass: null, triadQuality: 'minor', properties: [] }
 
 B/Gb { root: 11, bass: 6, triadQuality: 'major', properties: [] }
 
@@ -3348,8 +3339,7 @@ Csus2/E { root: 0, bass: 4, triadQuality: 'major', properties: [ 'sus2' ] }
     NOT PARSED 1 D1
 D1 { root: 2, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 C+5
-C+5 { root: 0, bass: null, triadQuality: 'major', properties: [] }
+C+5 { root: 0, bass: null, triadQuality: 'aug', properties: [] }
 
     NOT PARSED m5 Em5
 Em5 { root: 4, bass: null, triadQuality: 'major', properties: [] }
@@ -4372,8 +4362,7 @@ C9/G { root: 0, bass: 7, triadQuality: 'major', properties: [ '7', '9' ] }
 
 Fadd4 { root: 5, bass: null, triadQuality: 'major', properties: [ 'add4' ] }
 
-    NOT PARSED +5 F+5
-F+5 { root: 5, bass: null, triadQuality: 'major', properties: [] }
+F+5 { root: 5, bass: null, triadQuality: 'aug', properties: [] }
 
 Edim/G { root: 4, bass: 7, triadQuality: 'dim', properties: [] }
 
@@ -4796,8 +4785,7 @@ D** { root: 2, bass: null, triadQuality: 'major', properties: [ '*' ] }
     NOT PARSED -D# A#-D#
 A#-D# { root: 10, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 B+5
-B+5 { root: 11, bass: null, triadQuality: 'major', properties: [] }
+B+5 { root: 11, bass: null, triadQuality: 'aug', properties: [] }
 
 Eb7-9 {
   root: 3,
@@ -6122,8 +6110,7 @@ A-10-10 { root: 9, bass: null, triadQuality: 'major', properties: [] }
 
 E9/B { root: 4, bass: 11, triadQuality: 'major', properties: [ '7', '9' ] }
 
-    NOT PARSED +5 Bb+5
-Bb+5 { root: 10, bass: null, triadQuality: 'major', properties: [] }
+Bb+5 { root: 10, bass: null, triadQuality: 'aug', properties: [] }
 
 G#+7 { root: 8, bass: null, triadQuality: 'major', properties: [ '+7' ] }
 
@@ -6311,8 +6298,7 @@ Db/A { root: 1, bass: 9, triadQuality: 'major', properties: [] }
     NOT PARSED 7m D7m
 D7m { root: 2, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 Ab+5
-Ab+5 { root: 8, bass: null, triadQuality: 'major', properties: [] }
+Ab+5 { root: 8, bass: null, triadQuality: 'aug', properties: [] }
 
 F#m7/D { root: 6, bass: 2, triadQuality: 'minor', properties: [ 'm7' ] }
 
@@ -6597,8 +6583,7 @@ D#/F# { root: 3, bass: 6, triadQuality: 'major', properties: [] }
 
 Dsus4/D { root: 2, bass: 2, triadQuality: 'major', properties: [ 'sus4' ] }
 
-    NOT PARSED +5 F#+5
-F#+5 { root: 6, bass: null, triadQuality: 'major', properties: [] }
+F#+5 { root: 6, bass: null, triadQuality: 'aug', properties: [] }
 
     NOT PARSED mb5 Amb5
 Amb5 { root: 9, bass: null, triadQuality: 'major', properties: [] }
@@ -7107,8 +7092,7 @@ Am7(V) {
 
 Fdim/Ab { root: 5, bass: 8, triadQuality: 'dim', properties: [] }
 
-    NOT PARSED +5 Eb+5
-Eb+5 { root: 3, bass: null, triadQuality: 'major', properties: [] }
+Eb+5 { root: 3, bass: null, triadQuality: 'aug', properties: [] }
 
     NOT PARSED ( A(
 A( { root: 9, bass: null, triadQuality: 'major', properties: [] }
@@ -8018,8 +8002,7 @@ B7add4 {
   properties: [ 'add4', '7' ]
 }
 
-    NOT PARSED +5 G#+5
-G#+5 { root: 8, bass: null, triadQuality: 'major', properties: [] }
+G#+5 { root: 8, bass: null, triadQuality: 'aug', properties: [] }
 
     NOT PARSED 7/9 Eb7/9
 Eb7/9 { root: 3, bass: null, triadQuality: 'major', properties: [] }
@@ -8265,8 +8248,7 @@ Bbdim/E { root: 10, bass: 4, triadQuality: 'dim', properties: [] }
     NOT PARSED ( B(
 B( { root: 11, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 Db+5
-Db+5 { root: 1, bass: null, triadQuality: 'major', properties: [] }
+Db+5 { root: 1, bass: null, triadQuality: 'aug', properties: [] }
 
     NOT PARSED -0000 E-0000
 E-0000 { root: 4, bass: null, triadQuality: 'major', properties: [] }
@@ -9334,8 +9316,7 @@ Abadd11+ {
   properties: [ 'add11+' ]
 }
 
-    NOT PARSED +5 C#+5
-C#+5 { root: 1, bass: null, triadQuality: 'major', properties: [] }
+C#+5 { root: 1, bass: null, triadQuality: 'aug', properties: [] }
 
 C#m#5 { root: 1, bass: null, triadQuality: 'minor', properties: [ '#5' ] }
 
@@ -11191,8 +11172,7 @@ Absus4/Gb { root: 8, bass: 6, triadQuality: 'major', properties: [ 'sus4' ] }
     NOT PARSED C BC
 BC { root: 11, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 D#+5
-D#+5 { root: 3, bass: null, triadQuality: 'major', properties: [] }
+D#+5 { root: 3, bass: null, triadQuality: 'aug', properties: [] }
 
 Dbm7/B { root: 1, bass: 11, triadQuality: 'minor', properties: [ 'm7' ] }
 
@@ -11444,8 +11424,7 @@ Ab6sus2 {
   properties: [ 'sus2', '6' ]
 }
 
-    NOT PARSED +5 G+5/B
-G+5/B { root: 7, bass: 11, triadQuality: 'major', properties: [] }
+G+5/B { root: 7, bass: 11, triadQuality: 'aug', properties: [] }
 
     NOT PARSED /9 Cmaj7/9
 Cmaj7/9 { root: 0, bass: null, triadQuality: 'major', properties: [ 'maj7' ] }
@@ -11693,8 +11672,7 @@ Gbmaj7sus2 {
   properties: [ 'sus2', 'maj7' ]
 }
 
-    NOT PARSED +5 F+5/G
-F+5/G { root: 5, bass: 7, triadQuality: 'major', properties: [] }
+F+5/G { root: 5, bass: 7, triadQuality: 'aug', properties: [] }
 
 Bm7-5/A { root: 11, bass: 9, triadQuality: 'dim', properties: [] }
 
@@ -12155,8 +12133,7 @@ Ebsus4/Ab { root: 3, bass: 8, triadQuality: 'major', properties: [ 'sus4' ] }
     NOT PARSED add Cadd#9
 Cadd#9 { root: 0, bass: null, triadQuality: 'major', properties: [ '#9' ] }
 
-    NOT PARSED +5 E+5/F#
-E+5/F# { root: 4, bass: 6, triadQuality: 'major', properties: [] }
+E+5/F# { root: 4, bass: 6, triadQuality: 'aug', properties: [] }
 
 Cadd9/C { root: 0, bass: 0, triadQuality: 'major', properties: [ 'add9' ] }
 
@@ -13078,8 +13055,7 @@ d { root: 2, bass: null, triadQuality: 'major', properties: [] }
 
 G#m(add9) { root: 8, bass: null, triadQuality: 'minor', properties: [ 'add9' ] }
 
-    NOT PARSED +5 Gb+5
-Gb+5 { root: 6, bass: null, triadQuality: 'major', properties: [] }
+Gb+5 { root: 6, bass: null, triadQuality: 'aug', properties: [] }
 
 Eb7+5-9 { root: 3, bass: null, triadQuality: 'aug', properties: [ '-9', '7' ] }
 
@@ -14143,16 +14119,14 @@ DbM7/Eb { root: 1, bass: 3, triadQuality: 'major', properties: [ 'M7' ] }
 
 Emaj9/B { root: 4, bass: 11, triadQuality: 'major', properties: [ 'maj9' ] }
 
-    NOT PARSED +5 Ab+5/Bb
-Ab+5/Bb { root: 8, bass: 10, triadQuality: 'major', properties: [] }
+Ab+5/Bb { root: 8, bass: 10, triadQuality: 'aug', properties: [] }
 
     NOT PARSED o7 Eo7
 Eo7 { root: 4, bass: null, triadQuality: 'major', properties: [] }
 
 D#mi { root: 3, bass: null, triadQuality: 'minor', properties: [] }
 
-    NOT PARSED +5 Db+5/Eb
-Db+5/Eb { root: 1, bass: 3, triadQuality: 'major', properties: [] }
+Db+5/Eb { root: 1, bass: 3, triadQuality: 'aug', properties: [] }
 
 EM7/D# { root: 4, bass: 3, triadQuality: 'major', properties: [ 'M7' ] }
 
@@ -14736,8 +14710,7 @@ D#m7sus4 {
   properties: [ 'sus4', 'm7' ]
 }
 
-    NOT PARSED +5 A+5/C#
-A+5/C# { root: 9, bass: 1, triadQuality: 'major', properties: [] }
+A+5/C# { root: 9, bass: 1, triadQuality: 'aug', properties: [] }
 
     NOT PARSED m/Dm Am/Dm
 Am/Dm { root: 9, bass: null, triadQuality: 'major', properties: [] }
@@ -16453,8 +16426,7 @@ B(m { root: 11, bass: null, triadQuality: 'major', properties: [] }
     NOT PARSED BC ABC
 ABC { root: 9, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 Dsus2+5
-Dsus2+5 { root: 2, bass: null, triadQuality: 'major', properties: [ 'sus2' ] }
+Dsus2+5 { root: 2, bass: null, triadQuality: 'aug', properties: [ 'sus2' ] }
 
 Cadd9+ { root: 0, bass: null, triadQuality: 'major', properties: [ 'add9+' ] }
 
@@ -16726,7 +16698,7 @@ Baug/F { root: 11, bass: 5, triadQuality: 'aug', properties: [] }
 
 Esus2/G { root: 4, bass: 7, triadQuality: 'major', properties: [ 'sus2' ] }
 
-    NOT PARSED m# Bm#
+    NOT PARSED #m B#m
 Bm# { root: 11, bass: null, triadQuality: 'major', properties: [] }
 
     NOT PARSED m7- Am7-
@@ -17185,8 +17157,7 @@ Bb13-9 {
 
 Bbm(add9) { root: 10, bass: null, triadQuality: 'minor', properties: [ 'add9' ] }
 
-    NOT PARSED +5 B+5/F
-B+5/F { root: 11, bass: 5, triadQuality: 'major', properties: [] }
+B+5/F { root: 11, bass: 5, triadQuality: 'aug', properties: [] }
 
 GMaj7/D { root: 7, bass: 2, triadQuality: 'major', properties: [ 'maj7' ] }
 
@@ -17201,8 +17172,7 @@ Amaj7#5 {
   properties: [ '#5', 'maj7' ]
 }
 
-    NOT PARSED +5 Bb+5/C
-Bb+5/C { root: 10, bass: 0, triadQuality: 'major', properties: [] }
+Bb+5/C { root: 10, bass: 0, triadQuality: 'aug', properties: [] }
 
 Ab5/B { root: 8, bass: 11, triadQuality: 'major', properties: [ '5' ] }
 
@@ -17226,8 +17196,7 @@ AMaj { root: 9, bass: null, triadQuality: 'major', properties: [ 'maj' ] }
     NOT PARSED 13-5 D13-5
 D13-5 { root: 2, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 A+5/B
-A+5/B { root: 9, bass: 11, triadQuality: 'major', properties: [] }
+A+5/B { root: 9, bass: 11, triadQuality: 'aug', properties: [] }
 
     NOT PARSED (9) F#(9)
 F#(9) { root: 6, bass: null, triadQuality: 'major', properties: [] }
@@ -18333,8 +18302,7 @@ Dm6(V) {
   properties: [ 'V', '6' ]
 }
 
-    NOT PARSED +5 Dsus4+5
-Dsus4+5 { root: 2, bass: null, triadQuality: 'major', properties: [ 'sus4' ] }
+Dsus4+5 { root: 2, bass: null, triadQuality: 'aug', properties: [ 'sus4' ] }
 
     NOT PARSED 7/13- A7/13-
 A7/13- { root: 9, bass: null, triadQuality: 'major', properties: [] }
@@ -19111,8 +19079,7 @@ A5A5 { root: 9, bass: null, triadQuality: 'major', properties: [] }
     NOT PARSED -5-5-5 Db-5-5-5
 Db-5-5-5 { root: 1, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 A+5/F
-A+5/F { root: 9, bass: 5, triadQuality: 'major', properties: [] }
+A+5/F { root: 9, bass: 5, triadQuality: 'aug', properties: [] }
 
     NOT PARSED -3-3- E-3-3-2
 E-3-3-2 { root: 4, bass: null, triadQuality: 'major', properties: [ '2' ] }
@@ -19867,8 +19834,7 @@ G#m7-5/D { root: 8, bass: 2, triadQuality: 'dim', properties: [] }
     NOT PARSED Aug G#Aug
 G#Aug { root: 8, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 G+5/F
-G+5/F { root: 7, bass: 5, triadQuality: 'major', properties: [] }
+G+5/F { root: 7, bass: 5, triadQuality: 'aug', properties: [] }
 
 Daug/Ab { root: 2, bass: 8, triadQuality: 'aug', properties: [] }
 
@@ -20375,8 +20341,7 @@ G7(#11) {
 
 C7+/E { root: 0, bass: 4, triadQuality: 'aug', properties: [ '7' ] }
 
-    NOT PARSED +5 A#+5
-A#+5 { root: 10, bass: null, triadQuality: 'major', properties: [] }
+A#+5 { root: 10, bass: null, triadQuality: 'aug', properties: [] }
 
 Abm6/Db { root: 8, bass: 1, triadQuality: 'minor', properties: [ '6' ] }
 
@@ -21449,8 +21414,7 @@ A(1 { root: 9, bass: null, triadQuality: 'major', properties: [] }
     NOT PARSED /7 Dsus4/7
 Dsus4/7 { root: 2, bass: null, triadQuality: 'major', properties: [ 'sus4' ] }
 
-    NOT PARSED +5 A+5/G
-A+5/G { root: 9, bass: 7, triadQuality: 'major', properties: [] }
+A+5/G { root: 9, bass: 7, triadQuality: 'aug', properties: [] }
 
     NOT PARSED -A A#-A
 A#-A { root: 10, bass: null, triadQuality: 'major', properties: [] }
@@ -22173,11 +22137,9 @@ G#m(XI) { root: 8, bass: null, triadQuality: 'minor', properties: [ 'XI' ] }
     NOT PARSED -1-0-1 B-1-0-1
 B-1-0-1 { root: 11, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 D#maj7+5
-D#maj7+5 { root: 3, bass: null, triadQuality: 'major', properties: [ 'maj7' ] }
+D#maj7+5 { root: 3, bass: null, triadQuality: 'aug', properties: [ 'maj7' ] }
 
-    NOT PARSED +5 Amaj7+5
-Amaj7+5 { root: 9, bass: null, triadQuality: 'major', properties: [ 'maj7' ] }
+Amaj7+5 { root: 9, bass: null, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 C#m7/Ab { root: 1, bass: 8, triadQuality: 'minor', properties: [ 'm7' ] }
 
@@ -23548,8 +23510,7 @@ F#(4 { root: 6, bass: null, triadQuality: 'major', properties: [ '4' ] }
     NOT PARSED -0--2 E-0-2-2
 E-0-2-2 { root: 4, bass: null, triadQuality: 'major', properties: [ '2' ] }
 
-    NOT PARSED +5 C+5*
-C+5* { root: 0, bass: null, triadQuality: 'major', properties: [ '*' ] }
+C+5* { root: 0, bass: null, triadQuality: 'aug', properties: [ '*' ] }
 
     NOT PARSED --6-7 D-4-6-7
 D-4-6-7 { root: 2, bass: null, triadQuality: 'major', properties: [ '4' ] }
@@ -23768,8 +23729,7 @@ E6sus4/A {
     NOT PARSED Dim EbDim
 EbDim { root: 3, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 D+5/E
-D+5/E { root: 2, bass: 4, triadQuality: 'major', properties: [] }
+D+5/E { root: 2, bass: 4, triadQuality: 'aug', properties: [] }
 
 A7SUS4 {
   root: 9,
@@ -24256,8 +24216,7 @@ SOL9 {
   properties: [ '7', '9' ]
 }
 
-    NOT PARSED +5 Fmaj7+5
-Fmaj7+5 { root: 5, bass: null, triadQuality: 'major', properties: [ 'maj7' ] }
+Fmaj7+5 { root: 5, bass: null, triadQuality: 'aug', properties: [ 'maj7' ] }
 
     NOT PARSED m7/5 C#m7/5
 C#m7/5 { root: 1, bass: null, triadQuality: 'major', properties: [] }
@@ -24971,8 +24930,7 @@ BM7/D# { root: 11, bass: 3, triadQuality: 'major', properties: [ 'M7' ] }
 
 Dbm/F { root: 1, bass: 5, triadQuality: 'minor', properties: [] }
 
-    NOT PARSED +5 C+5/E
-C+5/E { root: 0, bass: 4, triadQuality: 'major', properties: [] }
+C+5/E { root: 0, bass: 4, triadQuality: 'aug', properties: [] }
 
 A7b9/E { root: 9, bass: 4, triadQuality: 'major', properties: [ 'b9', '7' ] }
 
@@ -25692,8 +25650,7 @@ Caddb6 { root: 0, bass: null, triadQuality: 'major', properties: [] }
 
 F#m9/G# { root: 6, bass: 8, triadQuality: 'minor', properties: [ '9' ] }
 
-    NOT PARSED +5 B+5/C#
-B+5/C# { root: 11, bass: 1, triadQuality: 'major', properties: [] }
+B+5/C# { root: 11, bass: 1, triadQuality: 'aug', properties: [] }
 
     NOT PARSED M9 CM9/D
 CM9/D { root: 0, bass: 2, triadQuality: 'major', properties: [] }
@@ -25728,8 +25685,7 @@ F7sus4/G {
 
 F6/9/A { root: 5, bass: 9, triadQuality: 'major', properties: [ '6/9' ] }
 
-    NOT PARSED +5 G+5/A
-G+5/A { root: 7, bass: 9, triadQuality: 'major', properties: [] }
+G+5/A { root: 7, bass: 9, triadQuality: 'aug', properties: [] }
 
 D#add9/G { root: 3, bass: 7, triadQuality: 'major', properties: [ 'add9' ] }
 
@@ -26854,8 +26810,7 @@ D-0-1-1 { root: 2, bass: null, triadQuality: 'major', properties: [] }
     NOT PARSED /F#+ D/F#+
 D/F#+ { root: 2, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED m# Fm#/A
-Fm#/A { root: 5, bass: 9, triadQuality: 'major', properties: [] }
+Fm#/A { root: 6, bass: 9, triadQuality: 'minor', properties: [] }
 
     NOT PARSED -8-11 G-8-9-11
 G-8-9-11 { root: 7, bass: null, triadQuality: 'major', properties: [ '-9' ] }
@@ -26959,8 +26914,7 @@ B1/2 { root: 11, bass: null, triadQuality: 'major', properties: [ '2' ] }
 
 Daugsus2 { root: 2, bass: null, triadQuality: 'aug', properties: [ 'sus2' ] }
 
-    NOT PARSED +5 C+5/Ab
-C+5/Ab { root: 0, bass: 8, triadQuality: 'major', properties: [] }
+C+5/Ab { root: 0, bass: 8, triadQuality: 'aug', properties: [] }
 
     NOT PARSED /9 C+7/9
 C+7/9 { root: 0, bass: null, triadQuality: 'major', properties: [ '+7' ] }
@@ -27363,8 +27317,7 @@ Am7-6 { root: 9, bass: null, triadQuality: 'major', properties: [] }
     NOT PARSED m9-5 Am9-5
 Am9-5 { root: 9, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 Asus4+5
-Asus4+5 { root: 9, bass: null, triadQuality: 'major', properties: [ 'sus4' ] }
+Asus4+5 { root: 9, bass: null, triadQuality: 'aug', properties: [ 'sus4' ] }
 
     NOT PARSED m7/b5 Am7/b5
 Am7/b5 { root: 9, bass: null, triadQuality: 'major', properties: [] }
@@ -28065,7 +28018,7 @@ A9sus2 {
     NOT PARSED 1- B1-
 B1- { root: 11, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED m# Em#
+    NOT PARSED #m E#m
 Em# { root: 4, bass: null, triadQuality: 'major', properties: [] }
 
     NOT PARSED m5 Dmsus5
@@ -31719,8 +31672,7 @@ Ab(b5)/G { root: 8, bass: 7, triadQuality: 'major', properties: [] }
     NOT PARSED Bm DBm
 DBm { root: 2, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 Eb+5/F
-Eb+5/F { root: 3, bass: 5, triadQuality: 'major', properties: [] }
+Eb+5/F { root: 3, bass: 5, triadQuality: 'aug', properties: [] }
 
     NOT PARSED 9(b5) A9(b5)
 A9(b5) { root: 9, bass: null, triadQuality: 'major', properties: [] }
@@ -31775,13 +31727,11 @@ Bbmmaj7/Db { root: 10, bass: 1, triadQuality: 'minor', properties: [ 'maj7' ] }
 
 Bbm7-5/Ab { root: 10, bass: 8, triadQuality: 'dim', properties: [] }
 
-    NOT PARSED +5 Cmaj7+5/A
-Cmaj7+5/A { root: 0, bass: 9, triadQuality: 'major', properties: [ 'maj7' ] }
+Cmaj7+5/A { root: 0, bass: 9, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 Eadd4/A { root: 4, bass: 9, triadQuality: 'major', properties: [ 'add4' ] }
 
-    NOT PARSED +5 B+5/Db
-B+5/Db { root: 11, bass: 1, triadQuality: 'major', properties: [] }
+B+5/Db { root: 11, bass: 1, triadQuality: 'aug', properties: [] }
 
 Abm(add9) { root: 8, bass: null, triadQuality: 'minor', properties: [ 'add9' ] }
 
@@ -31908,8 +31858,7 @@ F#7b9/A# { root: 6, bass: 10, triadQuality: 'major', properties: [ 'b9', '7' ] }
 
 Dbdim/Eb { root: 1, bass: 3, triadQuality: 'dim', properties: [] }
 
-    NOT PARSED +5 E+5/B
-E+5/B { root: 4, bass: 11, triadQuality: 'major', properties: [] }
+E+5/B { root: 4, bass: 11, triadQuality: 'aug', properties: [] }
 
 F#add4/B { root: 6, bass: 11, triadQuality: 'major', properties: [ 'add4' ] }
 
@@ -31981,8 +31930,7 @@ D6/Gb { root: 2, bass: 6, triadQuality: 'major', properties: [ '6' ] }
 
 C#6/A { root: 1, bass: 9, triadQuality: 'major', properties: [ '6' ] }
 
-    NOT PARSED +5 E+5/Gb
-E+5/Gb { root: 4, bass: 6, triadQuality: 'major', properties: [] }
+E+5/Gb { root: 4, bass: 6, triadQuality: 'aug', properties: [] }
 
 Amin/C { root: 9, bass: 0, triadQuality: 'minor', properties: [] }
 
@@ -32019,8 +31967,7 @@ G#sus4/A# { root: 8, bass: 10, triadQuality: 'major', properties: [ 'sus4' ] }
 
 G#sus/A# { root: 8, bass: 10, triadQuality: 'major', properties: [ 'sus' ] }
 
-    NOT PARSED +5 C+5/D
-C+5/D { root: 0, bass: 2, triadQuality: 'major', properties: [] }
+C+5/D { root: 0, bass: 2, triadQuality: 'aug', properties: [] }
 
 C4/D# { root: 0, bass: 3, triadQuality: 'major', properties: [ '4' ] }
 
@@ -32618,8 +32565,7 @@ Gmaj76 {
   properties: [ 'maj7', '6' ]
 }
 
-    NOT PARSED +5 Bsus4+5/C#
-Bsus4+5/C# { root: 11, bass: 1, triadQuality: 'major', properties: [ 'sus4' ] }
+Bsus4+5/C# { root: 11, bass: 1, triadQuality: 'aug', properties: [ 'sus4' ] }
 
 EM7/F# { root: 4, bass: 6, triadQuality: 'major', properties: [ 'M7' ] }
 
@@ -33586,8 +33532,7 @@ Gm! { root: 7, bass: null, triadQuality: 'major', properties: [] }
     NOT PARSED ** G#***
 G#*** { root: 8, bass: null, triadQuality: 'major', properties: [ '*' ] }
 
-    NOT PARSED +5 E+5/G#
-E+5/G# { root: 4, bass: 8, triadQuality: 'major', properties: [] }
+E+5/G# { root: 4, bass: 8, triadQuality: 'aug', properties: [] }
 
 MI2 { root: 4, bass: null, triadQuality: 'major', properties: [ '2' ] }
 
@@ -34316,8 +34261,7 @@ G/F#m { root: 7, bass: null, triadQuality: 'major', properties: [] }
     NOT PARSED ri Abri
 Abri { root: 8, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 F+5/A
-F+5/A { root: 5, bass: 9, triadQuality: 'major', properties: [] }
+F+5/A { root: 5, bass: 9, triadQuality: 'aug', properties: [] }
 
     NOT PARSED /U C/U
 C/U { root: 0, bass: null, triadQuality: 'major', properties: [] }
@@ -34683,8 +34627,7 @@ Db(dim) { root: 1, bass: null, triadQuality: 'major', properties: [] }
 
 F(6/9) { root: 5, bass: null, triadQuality: 'major', properties: [ '6/9' ] }
 
-    NOT PARSED +5 Bbmaj7+5
-Bbmaj7+5 { root: 10, bass: null, triadQuality: 'major', properties: [ 'maj7' ] }
+Bbmaj7+5 { root: 10, bass: null, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 Fdim7/G# { root: 5, bass: 8, triadQuality: 'dim', properties: [] }
 
@@ -35288,8 +35231,7 @@ Abm9/Gb { root: 8, bass: 6, triadQuality: 'minor', properties: [ '9' ] }
     NOT PARSED m13 Gm13/Bb
 Gm13/Bb { root: 7, bass: 10, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 Emaj7+5
-Emaj7+5 { root: 4, bass: null, triadQuality: 'major', properties: [ 'maj7' ] }
+Emaj7+5 { root: 4, bass: null, triadQuality: 'aug', properties: [ 'maj7' ] }
 
     NOT PARSED mb5 Dmb5/F
 Dmb5/F { root: 2, bass: 5, triadQuality: 'major', properties: [] }
@@ -35530,8 +35472,7 @@ D9sus4/C {
   properties: [ 'sus4', '7', '9' ]
 }
 
-    NOT PARSED +5 D+5/F#
-D+5/F# { root: 2, bass: 6, triadQuality: 'major', properties: [] }
+D+5/F# { root: 2, bass: 6, triadQuality: 'aug', properties: [] }
 
 AMaj7/C# { root: 9, bass: 1, triadQuality: 'major', properties: [ 'maj7' ] }
 
@@ -36037,8 +35978,7 @@ A13/G { root: 9, bass: 7, triadQuality: 'major', properties: [ '7', '13' ] }
     NOT PARSED M9 DM9/B
 DM9/B { root: 2, bass: 11, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 B+5/Bb
-B+5/Bb { root: 11, bass: 10, triadQuality: 'major', properties: [] }
+B+5/Bb { root: 11, bass: 10, triadQuality: 'aug', properties: [] }
 
 Ebmadd11/Ab { root: 3, bass: 8, triadQuality: 'minor', properties: [ 'add11' ] }
 
@@ -36335,8 +36275,7 @@ GM7/G# { root: 7, bass: 8, triadQuality: 'major', properties: [ 'M7' ] }
     NOT PARSED (b5) Ebmaj7(b5)
 Ebmaj7(b5) { root: 3, bass: null, triadQuality: 'major', properties: [ 'maj7' ] }
 
-    NOT PARSED +5 G#+5/F#
-G#+5/F# { root: 8, bass: 6, triadQuality: 'major', properties: [] }
+G#+5/F# { root: 8, bass: 6, triadQuality: 'aug', properties: [] }
 
 D(add11)/A { root: 2, bass: 9, triadQuality: 'major', properties: [ 'add11' ] }
 
@@ -37094,8 +37033,7 @@ C#maj7add13 {
 
 Gbsus2/E { root: 6, bass: 4, triadQuality: 'major', properties: [ 'sus2' ] }
 
-    NOT PARSED +5 Gb+5/Ab
-Gb+5/Ab { root: 6, bass: 8, triadQuality: 'major', properties: [] }
+Gb+5/Ab { root: 6, bass: 8, triadQuality: 'aug', properties: [] }
 
 DmM7/C# { root: 2, bass: 1, triadQuality: 'minor', properties: [ 'M7' ] }
 
@@ -38686,8 +38624,7 @@ Ab5/Bb5 { root: 8, bass: null, triadQuality: 'major', properties: [] }
     NOT PARSED 7-5 E7-5sus2
 E7-5sus2 { root: 4, bass: null, triadQuality: 'major', properties: [ 'sus2' ] }
 
-    NOT PARSED +5 E+5/Ab
-E+5/Ab { root: 4, bass: 8, triadQuality: 'major', properties: [] }
+E+5/Ab { root: 4, bass: 8, triadQuality: 'aug', properties: [] }
 
     NOT PARSED 11+ Bb11+
 Bb11+ { root: 10, bass: null, triadQuality: 'major', properties: [] }
@@ -39101,8 +39038,7 @@ Bm(VII)E(VII) {
 
 G/Gadd11 { root: 7, bass: 7, triadQuality: 'major', properties: [ 'add11' ] }
 
-    NOT PARSED +5 F#+5sus4
-F#+5sus4 { root: 6, bass: null, triadQuality: 'major', properties: [ 'sus4' ] }
+F#+5sus4 { root: 6, bass: null, triadQuality: 'aug', properties: [ 'sus4' ] }
 
     NOT PARSED m-5 F#m-5/A#
 F#m-5/A# { root: 6, bass: 10, triadQuality: 'major', properties: [] }
@@ -39386,8 +39322,7 @@ Em7-5add11 { root: 4, bass: null, triadQuality: 'dim', properties: [ 'add11' ] }
 
 F5-2 { root: 5, bass: null, triadQuality: 'dim', properties: [ '2' ] }
 
-    NOT PARSED +5 Bsus4+5
-Bsus4+5 { root: 11, bass: null, triadQuality: 'major', properties: [ 'sus4' ] }
+Bsus4+5 { root: 11, bass: null, triadQuality: 'aug', properties: [ 'sus4' ] }
 
 Am-9/C { root: 9, bass: 0, triadQuality: 'minor', properties: [ '-9' ] }
 
@@ -40275,8 +40210,7 @@ F#-9sus4 {
   properties: [ 'sus4', '-9' ]
 }
 
-    NOT PARSED +5 F+7+5
-F+7+5 { root: 5, bass: null, triadQuality: 'major', properties: [ '+7' ] }
+F+7+5 { root: 5, bass: null, triadQuality: 'aug', properties: [ '+7' ] }
 
     NOT PARSED m-6 Cm-6
 Cm-6 { root: 0, bass: null, triadQuality: 'major', properties: [] }
@@ -40308,8 +40242,7 @@ D5+7 {
   properties: [ '+7', '5' ]
 }
 
-    NOT PARSED +5 D+5+7
-D+5+7 { root: 2, bass: null, triadQuality: 'major', properties: [ '+7' ] }
+D+5+7 { root: 2, bass: null, triadQuality: 'aug', properties: [ '+7' ] }
 
     NOT PARSED /-5-5- B/-5-5-
 B/-5-5- { root: 11, bass: null, triadQuality: 'major', properties: [] }
@@ -40382,8 +40315,7 @@ G#5sus4 {
   properties: [ 'sus4', '5' ]
 }
 
-    NOT PARSED +5 D+5/G#
-D+5/G# { root: 2, bass: 8, triadQuality: 'major', properties: [] }
+D+5/G# { root: 2, bass: 8, triadQuality: 'aug', properties: [] }
 
 D#6-9 {
   root: 3,
@@ -40438,8 +40370,7 @@ F7add11/Eb {
     NOT PARSED /6 G#maj7/6
 G#maj7/6 { root: 8, bass: null, triadQuality: 'major', properties: [ 'maj7' ] }
 
-    NOT PARSED +5 E+5sus4
-E+5sus4 { root: 4, bass: null, triadQuality: 'major', properties: [ 'sus4' ] }
+E+5sus4 { root: 4, bass: null, triadQuality: 'aug', properties: [ 'sus4' ] }
 
 F+4 { root: 5, bass: null, triadQuality: 'aug', properties: [ '4' ] }
 
@@ -40481,8 +40412,7 @@ C5(C { root: 0, bass: null, triadQuality: 'major', properties: [] }
     NOT PARSED 5(D D5(D
 D5(D { root: 2, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 A+5/Eb
-A+5/Eb { root: 9, bass: 3, triadQuality: 'major', properties: [] }
+A+5/Eb { root: 9, bass: 3, triadQuality: 'aug', properties: [] }
 
     NOT PARSED m9Am Am9Am
 Am9Am { root: 9, bass: null, triadQuality: 'major', properties: [] }
@@ -41082,8 +41012,7 @@ Am2/C { root: 9, bass: 0, triadQuality: 'minor', properties: [ '2' ] }
     NOT PARSED -7////// A-7//////
 A-7////// { root: 9, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 E-9+5
-E-9+5 { root: 4, bass: null, triadQuality: 'major', properties: [ '-9' ] }
+E-9+5 { root: 4, bass: null, triadQuality: 'aug', properties: [ '-9' ] }
 
 Esus-9 {
   root: 4,
@@ -41121,8 +41050,7 @@ Am6(IV) {
   properties: [ 'IV', '6' ]
 }
 
-    NOT PARSED +5 G+7+5
-G+7+5 { root: 7, bass: null, triadQuality: 'major', properties: [ '+7' ] }
+G+7+5 { root: 7, bass: null, triadQuality: 'aug', properties: [ '+7' ] }
 
 F/D(VIII) { root: 5, bass: 2, triadQuality: 'major', properties: [ 'VIII' ] }
 
@@ -41485,8 +41413,7 @@ Dm(2 { root: 2, bass: null, triadQuality: 'minor', properties: [ '2' ] }
 
 A(b9 { root: 9, bass: null, triadQuality: 'major', properties: [ 'b9' ] }
 
-    NOT PARSED +5 Esus2+5
-Esus2+5 { root: 4, bass: null, triadQuality: 'major', properties: [ 'sus2' ] }
+Esus2+5 { root: 4, bass: null, triadQuality: 'aug', properties: [ 'sus2' ] }
 
 Em(VI) { root: 4, bass: null, triadQuality: 'minor', properties: [ 'VI' ] }
 
@@ -42051,7 +41978,7 @@ Csus4#5 {
     NOT PARSED mA7 DmA7
 DmA7 { root: 2, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED m# Em#2
+    NOT PARSED #m E#m2
 Em#2 { root: 4, bass: null, triadQuality: 'major', properties: [ '2' ] }
 
     NOT PARSED -3-656 A-3-656
@@ -42294,8 +42221,7 @@ Em(II) { root: 4, bass: null, triadQuality: 'minor', properties: [ 'II' ] }
     NOT PARSED -3 F(2-3
 F(2-3 { root: 5, bass: null, triadQuality: 'major', properties: [ '2' ] }
 
-    NOT PARSED +5 A#sus2+5
-A#sus2+5 { root: 10, bass: null, triadQuality: 'major', properties: [ 'sus2' ] }
+A#sus2+5 { root: 10, bass: null, triadQuality: 'aug', properties: [ 'sus2' ] }
 
     NOT PARSED m/ Abm/
 Abm/ { root: 8, bass: null, triadQuality: 'major', properties: [] }
@@ -42559,7 +42485,7 @@ GM7sus2/F# {
     NOT PARSED 5E5 B5(VII)E5
 B5(VII)E5 { root: 11, bass: null, triadQuality: 'major', properties: [ 'VII' ] }
 
-    NOT PARSED m# Abm#
+    NOT PARSED #m Ab#m
 Abm# { root: 8, bass: null, triadQuality: 'major', properties: [] }
 
     NOT PARSED 6+11 B6+11
@@ -42957,11 +42883,9 @@ A6-/E { root: 9, bass: 4, triadQuality: 'major', properties: [] }
 
 Amadd2/C { root: 9, bass: 0, triadQuality: 'minor', properties: [ 'add2' ] }
 
-    NOT PARSED m# Cm#sus2
-Cm#sus2 { root: 0, bass: null, triadQuality: 'major', properties: [ 'sus2' ] }
+Cm#sus2 { root: 1, bass: null, triadQuality: 'minor', properties: [ 'sus2' ] }
 
-    NOT PARSED m# Cm#sus4
-Cm#sus4 { root: 0, bass: null, triadQuality: 'major', properties: [ 'sus4' ] }
+Cm#sus4 { root: 1, bass: null, triadQuality: 'minor', properties: [ 'sus4' ] }
 
 Cadd9+3 {
   root: 0,
@@ -54626,8 +54550,7 @@ Am7I {
   properties: [ 'I', 'm7' ]
 }
 
-    NOT PARSED +5 C+5/A
-C+5/A { root: 0, bass: 9, triadQuality: 'major', properties: [] }
+C+5/A { root: 0, bass: 9, triadQuality: 'aug', properties: [] }
 
     NOT PARSED --44- G-4-44-
 G-4-44- { root: 7, bass: null, triadQuality: 'major', properties: [ '4' ] }
@@ -57899,8 +57822,7 @@ Dadd4add9/D# {
   properties: [ 'add9', 'add4' ]
 }
 
-    NOT PARSED +5 F#+5/E
-F#+5/E { root: 6, bass: 4, triadQuality: 'major', properties: [] }
+F#+5/E { root: 6, bass: 4, triadQuality: 'aug', properties: [] }
 
 Dmaj13/C# { root: 2, bass: 1, triadQuality: 'major', properties: [ 'maj13' ] }
 
@@ -57976,8 +57898,7 @@ Gb13-5 { root: 6, bass: null, triadQuality: 'major', properties: [] }
 
 Ab7/B { root: 8, bass: 11, triadQuality: 'major', properties: [ '7' ] }
 
-    NOT PARSED +5 F#+5/C
-F#+5/C { root: 6, bass: 0, triadQuality: 'major', properties: [] }
+F#+5/C { root: 6, bass: 0, triadQuality: 'aug', properties: [] }
 
 Ebmaj/Db { root: 3, bass: 1, triadQuality: 'major', properties: [ 'maj' ] }
 
@@ -57992,8 +57913,7 @@ G/]B { root: 7, bass: null, triadQuality: 'major', properties: [] }
 
 Gsus7/G { root: 7, bass: 7, triadQuality: 'major', properties: [ 'sus', '7' ] }
 
-    NOT PARSED +5 A#+5/C
-A#+5/C { root: 10, bass: 0, triadQuality: 'major', properties: [] }
+A#+5/C { root: 10, bass: 0, triadQuality: 'aug', properties: [] }
 
     NOT PARSED -5 B-5/Db
 B-5/Db { root: 11, bass: 1, triadQuality: 'major', properties: [] }
@@ -58025,8 +57945,7 @@ Bm9/G { root: 11, bass: 7, triadQuality: 'minor', properties: [ '9' ] }
 
 Bb6/Bb { root: 10, bass: 10, triadQuality: 'major', properties: [ '6' ] }
 
-    NOT PARSED +5 Ebmaj7+5/C
-Ebmaj7+5/C { root: 3, bass: 0, triadQuality: 'major', properties: [ 'maj7' ] }
+Ebmaj7+5/C { root: 3, bass: 0, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 C9sus4/F {
   root: 0,
@@ -58409,11 +58328,9 @@ Absus/E { root: 8, bass: 4, triadQuality: 'major', properties: [ 'sus' ] }
 
 Ammaj13/E { root: 9, bass: 4, triadQuality: 'minor', properties: [ 'maj13' ] }
 
-    NOT PARSED +5 Cmaj7+5
-Cmaj7+5 { root: 0, bass: null, triadQuality: 'major', properties: [ 'maj7' ] }
+Cmaj7+5 { root: 0, bass: null, triadQuality: 'aug', properties: [ 'maj7' ] }
 
-    NOT PARSED +5 Dbmaj7+5/A
-Dbmaj7+5/A { root: 1, bass: 9, triadQuality: 'major', properties: [ 'maj7' ] }
+Dbmaj7+5/A { root: 1, bass: 9, triadQuality: 'aug', properties: [ 'maj7' ] }
 
     NOT PARSED {3} G{3}
 G{3} { root: 7, bass: null, triadQuality: 'major', properties: [] }
@@ -58471,8 +58388,7 @@ F*3 {
     NOT PARSED 1 F*1
 F*1 { root: 5, bass: null, triadQuality: 'major', properties: [ '*' ] }
 
-    NOT PARSED +5 G+5/C
-G+5/C { root: 7, bass: 0, triadQuality: 'major', properties: [] }
+G+5/C { root: 7, bass: 0, triadQuality: 'aug', properties: [] }
 
     NOT PARSED /f# G/f#
 G/f# { root: 7, bass: null, triadQuality: 'major', properties: [] }
@@ -60107,8 +60023,7 @@ REm7* {
   properties: [ '*', 'm7' ]
 }
 
-    NOT PARSED +5 Csus2+5/G#
-Csus2+5/G# { root: 0, bass: 8, triadQuality: 'major', properties: [ 'sus2' ] }
+Csus2+5/G# { root: 0, bass: 8, triadQuality: 'aug', properties: [ 'sus2' ] }
 
     NOT PARSED (Nº3) Dadd11+(Nº3)
 Dadd11+(Nº3) {
@@ -64230,11 +64145,9 @@ BM9/D# { root: 11, bass: 3, triadQuality: 'major', properties: [] }
 
 E4/C# { root: 4, bass: 1, triadQuality: 'major', properties: [ '4' ] }
 
-    NOT PARSED +5 B+5/G#
-B+5/G# { root: 11, bass: 8, triadQuality: 'major', properties: [] }
+B+5/G# { root: 11, bass: 8, triadQuality: 'aug', properties: [] }
 
-    NOT PARSED +5 B+5/G
-B+5/G { root: 11, bass: 7, triadQuality: 'major', properties: [] }
+B+5/G { root: 11, bass: 7, triadQuality: 'aug', properties: [] }
 
     NOT PARSED /R E/R
 E/R { root: 4, bass: null, triadQuality: 'major', properties: [] }
@@ -70688,8 +70601,7 @@ G6/9/D { root: 7, bass: 2, triadQuality: 'major', properties: [ '6/9' ] }
     NOT PARSED 7-5 C#7-5-9
 C#7-5-9 { root: 1, bass: null, triadQuality: 'major', properties: [ '-9' ] }
 
-    NOT PARSED +5 F#+5/B
-F#+5/B { root: 6, bass: 11, triadQuality: 'major', properties: [] }
+F#+5/B { root: 6, bass: 11, triadQuality: 'aug', properties: [] }
 
     NOT PARSED (11) F(11)
 F(11) { root: 5, bass: null, triadQuality: 'major', properties: [] }
@@ -71173,8 +71085,7 @@ E3/D# { root: 4, bass: 3, triadQuality: 'major', properties: [ '3' ] }
 
 E3/D { root: 4, bass: 2, triadQuality: 'major', properties: [ '3' ] }
 
-    NOT PARSED +5 Gmaj7+5
-Gmaj7+5 { root: 7, bass: null, triadQuality: 'major', properties: [ 'maj7' ] }
+Gmaj7+5 { root: 7, bass: null, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 G/Dsus4 { root: 7, bass: 2, triadQuality: 'major', properties: [ 'sus4' ] }
 
@@ -71281,8 +71192,7 @@ Go7 { root: 7, bass: null, triadQuality: 'major', properties: [] }
     NOT PARSED o7 Dbo7
 Dbo7 { root: 1, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 E+5/A
-E+5/A { root: 4, bass: 9, triadQuality: 'major', properties: [] }
+E+5/A { root: 4, bass: 9, triadQuality: 'aug', properties: [] }
 
     NOT PARSED m+5 Cm+5/A
 Cm+5/A { root: 0, bass: 9, triadQuality: 'major', properties: [] }
@@ -71611,8 +71521,7 @@ G6(+9) { root: 7, bass: null, triadQuality: 'major', properties: [] }
     NOT PARSED add6 FM7add6
 FM7add6 { root: 5, bass: null, triadQuality: 'major', properties: [ 'M7' ] }
 
-    NOT PARSED +5 Emaj7+5/A
-Emaj7+5/A { root: 4, bass: 9, triadQuality: 'major', properties: [ 'maj7' ] }
+Emaj7+5/A { root: 4, bass: 9, triadQuality: 'aug', properties: [ 'maj7' ] }
 
     NOT PARSED 5addG# D5addG#
 D5addG# { root: 2, bass: null, triadQuality: 'major', properties: [] }
@@ -72950,8 +72859,7 @@ Amaj7s4 {
   properties: [ 'maj7', '4' ]
 }
 
-    NOT PARSED +5 Cmaj7+5/G#
-Cmaj7+5/G# { root: 0, bass: 8, triadQuality: 'major', properties: [ 'maj7' ] }
+Cmaj7+5/G# { root: 0, bass: 8, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 Db2/B { root: 1, bass: 11, triadQuality: 'major', properties: [ '2' ] }
 
@@ -73907,11 +73815,9 @@ Eadd-13 {
 
 B4/F { root: 11, bass: 5, triadQuality: 'major', properties: [ '4' ] }
 
-    NOT PARSED +5 D#+5/F
-D#+5/F { root: 3, bass: 5, triadQuality: 'major', properties: [] }
+D#+5/F { root: 3, bass: 5, triadQuality: 'aug', properties: [] }
 
-    NOT PARSED +5 F#+5/G#
-F#+5/G# { root: 6, bass: 8, triadQuality: 'major', properties: [] }
+F#+5/G# { root: 6, bass: 8, triadQuality: 'aug', properties: [] }
 
 D#7+5/F { root: 3, bass: 5, triadQuality: 'aug', properties: [ '7' ] }
 
@@ -75325,8 +75231,7 @@ Bb(add#11)/A { root: 10, bass: 9, triadQuality: 'major', properties: [ 'add#11' 
     NOT PARSED M13 AbM13
 AbM13 { root: 8, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 A+5/E
-A+5/E { root: 9, bass: 4, triadQuality: 'major', properties: [] }
+A+5/E { root: 9, bass: 4, triadQuality: 'aug', properties: [] }
 
     NOT PARSED 7-5 E7-5/Bb
 E7-5/Bb { root: 4, bass: 10, triadQuality: 'major', properties: [] }
@@ -75423,8 +75328,7 @@ G(4)/F { root: 7, bass: 5, triadQuality: 'major', properties: [ '4' ] }
 
 G(4)/B { root: 7, bass: 11, triadQuality: 'major', properties: [ '4' ] }
 
-    NOT PARSED +5 F+5/Eb
-F+5/Eb { root: 5, bass: 3, triadQuality: 'major', properties: [] }
+F+5/Eb { root: 5, bass: 3, triadQuality: 'aug', properties: [] }
 
     NOT PARSED ♭m B♭m
 B♭m { root: 11, bass: null, triadQuality: 'major', properties: [] }
@@ -76000,8 +75904,7 @@ E6(sus) {
     NOT PARSED (b5) Amaj7(b5)
 Amaj7(b5) { root: 9, bass: null, triadQuality: 'major', properties: [ 'maj7' ] }
 
-    NOT PARSED +5 A+5/D#
-A+5/D# { root: 9, bass: 3, triadQuality: 'major', properties: [] }
+A+5/D# { root: 9, bass: 3, triadQuality: 'aug', properties: [] }
 
 Fm9/G# { root: 5, bass: 8, triadQuality: 'minor', properties: [ '9' ] }
 
@@ -76428,8 +76331,7 @@ Ebdim7/G# { root: 3, bass: 8, triadQuality: 'dim', properties: [] }
 
 C#4/D { root: 1, bass: 2, triadQuality: 'major', properties: [ '4' ] }
 
-    NOT PARSED +5 C#maj7+5/A
-C#maj7+5/A { root: 1, bass: 9, triadQuality: 'major', properties: [ 'maj7' ] }
+C#maj7+5/A { root: 1, bass: 9, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 Gb7/B { root: 6, bass: 11, triadQuality: 'major', properties: [ '7' ] }
 
@@ -76451,11 +76353,9 @@ A6+9 { root: 9, bass: null, triadQuality: 'major', properties: [] }
 
 A#M/G { root: 10, bass: 7, triadQuality: 'minor', properties: [] }
 
-    NOT PARSED +5 G+5/D
-G+5/D { root: 7, bass: 2, triadQuality: 'major', properties: [] }
+G+5/D { root: 7, bass: 2, triadQuality: 'aug', properties: [] }
 
-    NOT PARSED +5 Ab+5/Eb
-Ab+5/Eb { root: 8, bass: 3, triadQuality: 'major', properties: [] }
+Ab+5/Eb { root: 8, bass: 3, triadQuality: 'aug', properties: [] }
 
     NOT PARSED m7-11 Am7-11
 Am7-11 { root: 9, bass: null, triadQuality: 'major', properties: [] }
@@ -76644,11 +76544,9 @@ AmMaj7/F { root: 9, bass: 5, triadQuality: 'minor', properties: [ 'maj7' ] }
 
 CMaj7/A { root: 0, bass: 9, triadQuality: 'major', properties: [ 'maj7' ] }
 
-    NOT PARSED +5 E+5/D
-E+5/D { root: 4, bass: 2, triadQuality: 'major', properties: [] }
+E+5/D { root: 4, bass: 2, triadQuality: 'aug', properties: [] }
 
-    NOT PARSED +5 C+5/G#
-C+5/G# { root: 0, bass: 8, triadQuality: 'major', properties: [] }
+C+5/G# { root: 0, bass: 8, triadQuality: 'aug', properties: [] }
 
 BMaj7/E { root: 11, bass: 4, triadQuality: 'major', properties: [ 'maj7' ] }
 
@@ -76741,8 +76639,7 @@ B11no5/A { root: 11, bass: 9, triadQuality: 'major', properties: [] }
     NOT PARSED ,11 Dadd9,11
 Dadd9,11 { root: 2, bass: null, triadQuality: 'major', properties: [ 'add9' ] }
 
-    NOT PARSED +5 Eb+5/G
-Eb+5/G { root: 3, bass: 7, triadQuality: 'major', properties: [] }
+Eb+5/G { root: 3, bass: 7, triadQuality: 'aug', properties: [] }
 
 Gm7(add11) {
   root: 7,
@@ -78017,8 +77914,7 @@ D9(add13) {
   properties: [ 'add13', '7', '9' ]
 }
 
-    NOT PARSED +5 E+5/Eb
-E+5/Eb { root: 4, bass: 3, triadQuality: 'major', properties: [] }
+E+5/Eb { root: 4, bass: 3, triadQuality: 'aug', properties: [] }
 
 AmMaj7/C { root: 9, bass: 0, triadQuality: 'minor', properties: [ 'maj7' ] }
 
@@ -78165,8 +78061,7 @@ Eb(add#11) {
 
 Gsus4/Ab { root: 7, bass: 8, triadQuality: 'major', properties: [ 'sus4' ] }
 
-    NOT PARSED +5 Bb+5/Gb
-Bb+5/Gb { root: 10, bass: 6, triadQuality: 'major', properties: [] }
+Bb+5/Gb { root: 10, bass: 6, triadQuality: 'aug', properties: [] }
 
 Am(b9) { root: 9, bass: null, triadQuality: 'minor', properties: [ 'b9' ] }
 
@@ -78348,8 +78243,7 @@ AmMaj7/B { root: 9, bass: 11, triadQuality: 'minor', properties: [ 'maj7' ] }
 
 G#m7b5/C# { root: 8, bass: 1, triadQuality: 'dim', properties: [] }
 
-    NOT PARSED +5 C+5/C#
-C+5/C# { root: 0, bass: 1, triadQuality: 'major', properties: [] }
+C+5/C# { root: 0, bass: 1, triadQuality: 'aug', properties: [] }
 
     NOT PARSED 9-5 D9-5/G#
 D9-5/G# { root: 2, bass: 8, triadQuality: 'major', properties: [] }
@@ -79375,13 +79269,11 @@ D9sus4/B {
   properties: [ 'sus4', '7', '9' ]
 }
 
-    NOT PARSED +5 Fmaj7+5/C#
-Fmaj7+5/C# { root: 5, bass: 1, triadQuality: 'major', properties: [ 'maj7' ] }
+Fmaj7+5/C# { root: 5, bass: 1, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 Abm7b5/D { root: 8, bass: 2, triadQuality: 'dim', properties: [] }
 
-    NOT PARSED +5 D+5/A
-D+5/A { root: 2, bass: 9, triadQuality: 'major', properties: [] }
+D+5/A { root: 2, bass: 9, triadQuality: 'aug', properties: [] }
 
 GmMaj7/A { root: 7, bass: 9, triadQuality: 'minor', properties: [ 'maj7' ] }
 
@@ -80067,8 +79959,7 @@ Bbadd4add9 {
   properties: [ 'add9', 'add4' ]
 }
 
-    NOT PARSED +5 Ab+5/D
-Ab+5/D { root: 8, bass: 2, triadQuality: 'major', properties: [] }
+Ab+5/D { root: 8, bass: 2, triadQuality: 'aug', properties: [] }
 
 C#M/F { root: 1, bass: 5, triadQuality: 'minor', properties: [] }
 
@@ -80107,8 +79998,7 @@ C#9sus4/B {
   properties: [ 'sus4', '7', '9' ]
 }
 
-    NOT PARSED +5 D+5/C#
-D+5/C# { root: 2, bass: 1, triadQuality: 'major', properties: [] }
+D+5/C# { root: 2, bass: 1, triadQuality: 'aug', properties: [] }
 
 Badd9/Bb { root: 11, bass: 10, triadQuality: 'major', properties: [ 'add9' ] }
 
@@ -80248,8 +80138,7 @@ GmM9 { root: 7, bass: null, triadQuality: 'major', properties: [] }
 
 A#m11/D# { root: 10, bass: 3, triadQuality: 'minor', properties: [ '11' ] }
 
-    NOT PARSED +5 Ebmaj7+5/B
-Ebmaj7+5/B { root: 3, bass: 11, triadQuality: 'major', properties: [ 'maj7' ] }
+Ebmaj7+5/B { root: 3, bass: 11, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 G6sus/G { root: 7, bass: 7, triadQuality: 'major', properties: [ 'sus', '6' ] }
 
@@ -80363,8 +80252,7 @@ Bbm(b5) { root: 10, bass: null, triadQuality: 'major', properties: [] }
     NOT PARSED (b5) Bb(b5)/C#
 Bb(b5)/C# { root: 10, bass: 1, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 C#+5/Eb
-C#+5/Eb { root: 1, bass: 3, triadQuality: 'major', properties: [] }
+C#+5/Eb { root: 1, bass: 3, triadQuality: 'aug', properties: [] }
 
     NOT PARSED (b5) Emaj7(b5)/F#
 Emaj7(b5)/F# { root: 4, bass: 6, triadQuality: 'major', properties: [ 'maj7' ] }
@@ -80712,8 +80600,7 @@ Bb(5) { root: 10, bass: null, triadQuality: 'major', properties: [] }
 
 F#2/Eb { root: 6, bass: 3, triadQuality: 'major', properties: [ '2' ] }
 
-    NOT PARSED +5 Dbmaj7+5
-Dbmaj7+5 { root: 1, bass: null, triadQuality: 'major', properties: [ 'maj7' ] }
+Dbmaj7+5 { root: 1, bass: null, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 G#m11/B { root: 8, bass: 11, triadQuality: 'minor', properties: [ '11' ] }
 
@@ -80978,8 +80865,7 @@ Bo/A { root: 11, bass: 9, triadQuality: 'dim', properties: [] }
 
 Do/C { root: 2, bass: 0, triadQuality: 'dim', properties: [] }
 
-    NOT PARSED +5 Eb+5/B
-Eb+5/B { root: 3, bass: 11, triadQuality: 'major', properties: [] }
+Eb+5/B { root: 3, bass: 11, triadQuality: 'aug', properties: [] }
 
     NOT PARSED b5 Gsus2b5
 Gsus2b5 { root: 7, bass: null, triadQuality: 'major', properties: [ 'sus2' ] }
@@ -81528,8 +81414,7 @@ AbSus2 { root: 8, bass: null, triadQuality: 'major', properties: [ '2' ] }
     NOT PARSED Sus DbSus4
 DbSus4 { root: 1, bass: null, triadQuality: 'major', properties: [ '4' ] }
 
-    NOT PARSED +5 G+5/D#
-G+5/D# { root: 7, bass: 3, triadQuality: 'major', properties: [] }
+G+5/D# { root: 7, bass: 3, triadQuality: 'aug', properties: [] }
 
     NOT PARSED (add6b) Bb(add6b)
 Bb(add6b) { root: 10, bass: null, triadQuality: 'major', properties: [] }
@@ -81594,8 +81479,7 @@ Gmaj7#9 {
 
 Ebmin/Ab { root: 3, bass: 8, triadQuality: 'minor', properties: [] }
 
-    NOT PARSED +5 Bmaj7+5
-Bmaj7+5 { root: 11, bass: null, triadQuality: 'major', properties: [ 'maj7' ] }
+Bmaj7+5 { root: 11, bass: null, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 F#madd11/A { root: 6, bass: 9, triadQuality: 'minor', properties: [ 'add11' ] }
 
@@ -81779,8 +81663,7 @@ Fmb9 { root: 5, bass: null, triadQuality: 'minor', properties: [ 'b9' ] }
     NOT PARSED addb6 G#addb6
 G#addb6 { root: 8, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 Ab+5/C
-Ab+5/C { root: 8, bass: 0, triadQuality: 'major', properties: [] }
+Ab+5/C { root: 8, bass: 0, triadQuality: 'aug', properties: [] }
 
 Db(maj) { root: 1, bass: null, triadQuality: 'major', properties: [ 'maj' ] }
 
@@ -81933,8 +81816,7 @@ F#7add11/E {
     NOT PARSED 7-5 C7-5/F#
 C7-5/F# { root: 0, bass: 6, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 Gbmaj7+5/Ab
-Gbmaj7+5/Ab { root: 6, bass: 8, triadQuality: 'major', properties: [ 'maj7' ] }
+Gbmaj7+5/Ab { root: 6, bass: 8, triadQuality: 'aug', properties: [ 'maj7' ] }
 
     ROOT NOT FOUND
 Ð¡#/F null
@@ -82101,8 +81983,7 @@ Amadd4/G { root: 9, bass: 7, triadQuality: 'minor', properties: [ 'add4' ] }
 
 Fmin7/Bb { root: 5, bass: 10, triadQuality: 'minor', properties: [ 'm7' ] }
 
-    NOT PARSED +5 Gbmaj7+5
-Gbmaj7+5 { root: 6, bass: null, triadQuality: 'major', properties: [ 'maj7' ] }
+Gbmaj7+5 { root: 6, bass: null, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 Gsus2/C# { root: 7, bass: 1, triadQuality: 'major', properties: [ 'sus2' ] }
 
@@ -82736,11 +82617,9 @@ Fmaj9/Bb { root: 5, bass: 10, triadQuality: 'major', properties: [ 'maj9' ] }
     NOT PARSED -5 Bbmaj7-5/G
 Bbmaj7-5/G { root: 10, bass: 7, triadQuality: 'major', properties: [ 'maj7' ] }
 
-    NOT PARSED +5 Eb+5/Db
-Eb+5/Db { root: 3, bass: 1, triadQuality: 'major', properties: [] }
+Eb+5/Db { root: 3, bass: 1, triadQuality: 'aug', properties: [] }
 
-    NOT PARSED +5 B+5/C
-B+5/C { root: 11, bass: 0, triadQuality: 'major', properties: [] }
+B+5/C { root: 11, bass: 0, triadQuality: 'aug', properties: [] }
 
 C13-9/E {
   root: 0,
@@ -82749,15 +82628,13 @@ C13-9/E {
   properties: [ '-9', '7', '13' ]
 }
 
-    NOT PARSED +5 Dbmaj7+5/Eb
-Dbmaj7+5/Eb { root: 1, bass: 3, triadQuality: 'major', properties: [ 'maj7' ] }
+Dbmaj7+5/Eb { root: 1, bass: 3, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 A7+5/B { root: 9, bass: 11, triadQuality: 'aug', properties: [ '7' ] }
 
 B7+5/F { root: 11, bass: 5, triadQuality: 'aug', properties: [ '7' ] }
 
-    NOT PARSED +5 Fmaj7+5/G
-Fmaj7+5/G { root: 5, bass: 7, triadQuality: 'major', properties: [ 'maj7' ] }
+Fmaj7+5/G { root: 5, bass: 7, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 Eb13-9 {
   root: 3,
@@ -82766,17 +82643,14 @@ Eb13-9 {
   properties: [ '-9', '7', '13' ]
 }
 
-    NOT PARSED +5 Bbmaj7+5/G
-Bbmaj7+5/G { root: 10, bass: 7, triadQuality: 'major', properties: [ 'maj7' ] }
+Bbmaj7+5/G { root: 10, bass: 7, triadQuality: 'aug', properties: [ 'maj7' ] }
 
     NOT PARSED 9+5 Ab9+5
 Ab9+5 { root: 8, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 Bbmaj7+5/C
-Bbmaj7+5/C { root: 10, bass: 0, triadQuality: 'major', properties: [ 'maj7' ] }
+Bbmaj7+5/C { root: 10, bass: 0, triadQuality: 'aug', properties: [ 'maj7' ] }
 
-    NOT PARSED +5 Bmaj7+5/C#
-Bmaj7+5/C# { root: 11, bass: 1, triadQuality: 'major', properties: [ 'maj7' ] }
+Bmaj7+5/C# { root: 11, bass: 1, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 Am7-5/B { root: 9, bass: 11, triadQuality: 'dim', properties: [] }
 
@@ -82789,8 +82663,7 @@ Emaj7-5/C# { root: 4, bass: 1, triadQuality: 'major', properties: [ 'maj7' ] }
     NOT PARSED B9 BB9
 BB9 { root: 11, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 Abmaj7+5/Bb
-Abmaj7+5/Bb { root: 8, bass: 10, triadQuality: 'major', properties: [ 'maj7' ] }
+Abmaj7+5/Bb { root: 8, bass: 10, triadQuality: 'aug', properties: [ 'maj7' ] }
 
 Bbmaj13/F { root: 10, bass: 5, triadQuality: 'major', properties: [ 'maj13' ] }
 
@@ -82847,8 +82720,7 @@ Dmaj9(#11) {
     NOT PARSED (M) F(M)
 F(M) { root: 5, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 Bb+5/Ab
-Bb+5/Ab { root: 10, bass: 8, triadQuality: 'major', properties: [] }
+Bb+5/Ab { root: 10, bass: 8, triadQuality: 'aug', properties: [] }
 
     NOT PARSED 7-5+9 C7-5+9
 C7-5+9 { root: 0, bass: null, triadQuality: 'major', properties: [] }
@@ -82856,8 +82728,7 @@ C7-5+9 { root: 0, bass: null, triadQuality: 'major', properties: [] }
     NOT PARSED 7+9 D7+9/Db
 D7+9/Db { root: 2, bass: 1, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 F+5/C
-F+5/C { root: 5, bass: 0, triadQuality: 'major', properties: [] }
+F+5/C { root: 5, bass: 0, triadQuality: 'aug', properties: [] }
 
 Eaug/E { root: 4, bass: 4, triadQuality: 'aug', properties: [] }
 
@@ -82931,14 +82802,11 @@ Ebmaj13/F { root: 3, bass: 5, triadQuality: 'major', properties: [ 'maj13' ] }
     NOT PARSED 7-5+9 Eb7-5+9
 Eb7-5+9 { root: 3, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 Eb+5/A
-Eb+5/A { root: 3, bass: 9, triadQuality: 'major', properties: [] }
+Eb+5/A { root: 3, bass: 9, triadQuality: 'aug', properties: [] }
 
-    NOT PARSED +5 F+5/B
-F+5/B { root: 5, bass: 11, triadQuality: 'major', properties: [] }
+F+5/B { root: 5, bass: 11, triadQuality: 'aug', properties: [] }
 
-    NOT PARSED +5 Db+5/G
-Db+5/G { root: 1, bass: 7, triadQuality: 'major', properties: [] }
+Db+5/G { root: 1, bass: 7, triadQuality: 'aug', properties: [] }
 
 Eb9sus4/Bb {
   root: 3,
@@ -82981,8 +82849,7 @@ Bbmaj7-5/E { root: 10, bass: 4, triadQuality: 'major', properties: [ 'maj7' ] }
     NOT PARSED 7+5+9 A#7+5+9
 A#7+5+9 { root: 10, bass: null, triadQuality: 'major', properties: [] }
 
-    NOT PARSED +5 F+5/Bb
-F+5/Bb { root: 5, bass: 10, triadQuality: 'major', properties: [] }
+F+5/Bb { root: 5, bass: 10, triadQuality: 'aug', properties: [] }
 
     NOT PARSED m+5 Dbm+5/Gb
 Dbm+5/Gb { root: 1, bass: 6, triadQuality: 'major', properties: [] }
@@ -83007,8 +82874,7 @@ G7sus/Bb {
   properties: [ 'sus', '7' ]
 }
 
-    NOT PARSED +5 Ab+5/Gb
-Ab+5/Gb { root: 8, bass: 6, triadQuality: 'major', properties: [] }
+Ab+5/Gb { root: 8, bass: 6, triadQuality: 'aug', properties: [] }
 
 G7/Db { root: 7, bass: 1, triadQuality: 'major', properties: [ '7' ] }
 
