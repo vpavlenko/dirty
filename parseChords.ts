@@ -156,10 +156,11 @@ const parseChord = (chord: string): Chord | null => {
     chord === "m7b5" ||
     chord === "maj7b5" ||
     chord === "dim7" ||
-    chord === "dim"
+    chord === "dim" || chord ==="o"
   ) {
+    // I don't distinguish dim7 and m7b5 as I don't care about types of seventh chords for now
     triadQuality = "dim";
-  } else if (chord === "m" || chord === "M") {
+  } else if (chord === "m" || chord === "M" || chord==="min") {
     triadQuality = "minor";
   } else if (chord === "m6") {
     triadQuality = "minor";
