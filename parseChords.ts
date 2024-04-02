@@ -118,6 +118,7 @@ const CHUNKS: string[] = [
   "4", // sus4
   "b9",
   "-9", // sometimes G-9 implies 7
+  "+9",
   "*",
   "/#9", // are these the bass?
   "/#11",
@@ -176,6 +177,7 @@ const parseChord = (chord: string): Chord | null => {
     chord === "min7b5" ||
     chord === "m7b5" ||
     chord === "m7-5" ||
+    chord === "7-5" ||
     chord === "m5-" ||
     chord === "m75-" ||
     chord === "5-" ||
