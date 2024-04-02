@@ -41,7 +41,7 @@ const CHUNKS_TO_REPLACE = {
 };
 
 const extractChunk = (chord: string, chunk: string): [string, boolean] => {
-  const regex = new RegExp(`\\(?${chunk.replace(/\+/g, '\\+')}\\)?`);
+  const regex = new RegExp(`\\(?${chunk.replace(/\+/g, '\\+').replace(/\*/g, '\\*')}\\)?`);
 
   if (regex.test(chord)) {
     return [chord.replace(regex, ""), true];
@@ -109,6 +109,7 @@ const CHUNKS: string[] = [
   "4", // sus4
   "b9",
   "-9", // sometimes G-9 implies 7
+  "*",
 ];
 
 const parseChord = (chord: string): Chord | null => {
