@@ -110,8 +110,6 @@ const parseChord = (chord: string): Chord | null => {
   let root: PitchClass | null = null;
   let triadQuality: TriadQuality = "major";
 
-  console.log("PARSING ", chord);
-
   for (const chunk of CHUNKS) {
     const [chord_, extracted] = extractChunk(chord, chunk);
     if (extracted) {
@@ -146,29 +144,40 @@ const parseChord = (chord: string): Chord | null => {
     }
   }
 
-  console.log("    ROOT", root);
-
-  // handle: m7b5, maj7b5,
-  if (chord === "m") {
-    triadQuality = "minor";
-  } else if (
+  if (
+    chord === "min7b5" ||
     chord === "m7b5" ||
     chord === "maj7b5" ||
     chord === "dim7" ||
     chord === "dim"
   ) {
     triadQuality = "dim";
+  } else if (chord === "m") {
+    triadQuality = "minor";
+  } else if (chord === "m7" || chord === "min7") {
+    triadQuality = "minor";
+    properties.push("m7");
+  } else if (chord === "7") {
+    properties.push("7");
+  } else if (chord === "9") {
+    properties.push("7");
+    properties.push("9");
+  } else if (chord === "11") {
+    properties.push("7");
+    properties.push("11");
+  } else if (chord === "5") {
+    properties.push("5");
+  } else if (chord === "6") {
+    properties.push("6");
   } else if (chord !== "") {
-    console.log("    NOT PARSED CORRECTLY", chord, sourceChord);
+    console.log("    NOT PARSED", chord, sourceChord);
   }
-
-  console.log("    QUALITY", triadQuality);
 
   return { root, bass, triadQuality, properties };
 };
 
 for (const chord in CHORD_COUNTS) {
   const parsedChord = parseChord(chord);
-  console.log(chord, CHORD_COUNTS[chord], parsedChord);
+  console.log(chord, parsedChord);
   console.log();
 }
