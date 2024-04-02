@@ -102,6 +102,7 @@ const CHUNKS: string[] = [
   "maj13",
   "maj7",
   "maj9",
+  "7M", // maj7
   "maj", // maj7
   "M7", // maj7
   "2", // sus2
