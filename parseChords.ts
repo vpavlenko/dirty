@@ -1,30 +1,23 @@
 import CHORD_COUNTS from "./chordCounts";
 
-const PITCH: { [key: string]: number } = {
-  C: 0, // C natural
+const PITCH: { [key: string]: PitchClass } = {
+  C: 0,
   "C#": 1,
-  Db: 1, // C sharp / D flat
-  D: 2, // D natural
+  Db: 1,
+  D: 2,
   "D#": 3,
-  Eb: 3, // D sharp / E flat
-  E: 4, // E natural
-  F: 5, // F natural
+  Eb: 3,
+  E: 4,
+  F: 5,
   "F#": 6,
-  Gb: 6, // F sharp / G flat
-  G: 7, // G natural
+  Gb: 6,
+  G: 7,
   "G#": 8,
-  Ab: 8, // G sharp / A flat
-  A: 9, // A natural
+  Ab: 8,
+  A: 9,
   "A#": 10,
-  Bb: 10, // A sharp / B flat
-  B: 11, // B natural
-  DO: 0,
-  RE: 2,
-  MI: 4,
-  FA: 5,
-  SOL: 7,
-  LA: 9,
-  SI: 11,
+  Bb: 10,
+  B: 11,
   c: 0,
   d: 2,
   e: 4,
@@ -55,14 +48,14 @@ const extractChunk = (chord: string, chunk: string): [string, boolean] => {
   return [chord, false];
 };
 
-type Quality = "major" | "minor" | "maj7" | "min7";
+type TriadQuality = "major" | "minor" | "dim";
 
 type PitchClass = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11;
 
 type Chord = {
   root: PitchClass;
   bass: PitchClass | null;
-  quality: Quality;
+  triadQuality: TriadQuality;
   properties: string[];
 };
 
@@ -101,30 +94,81 @@ const CHUNKS: string[] = [
   "add13",
   "69",
   "6/9",
+  "#5",
+  "#6",
+  "#11",
+  "maj13",
+  "maj7",
+  "maj9",
 ];
 
-const applyExtractionRules = (chord: string): Chord => {
+const parseChord = (chord: string): Chord | null => {
+  const sourceChord = chord;
+
   const properties: string[] = [];
+  let bass: PitchClass | null = null;
+  let root: PitchClass | null = null;
+  let triadQuality: TriadQuality = "major";
+
+  console.log("PARSING ", chord);
+
   for (const chunk of CHUNKS) {
     const [chord_, extracted] = extractChunk(chord, chunk);
     if (extracted) {
       properties.push(chunk);
+      console.log("    EXTRACTED ", chunk, chord_);
     }
     chord = chord_;
   }
 
-  return { root: 0, bass: null, quality: "major", properties };
-};
-
-const parseChord = (chord: string): Chord => {
-  for (const chunk in CHUNKS_TO_REPLACE) {
-    chord = chord.replace(chunk, CHUNKS_TO_REPLACE[chunk]);
+  if (chord.split("/").length === 2) {
+    const [chord_, bassLetter] = chord.split("/");
+    if (bassLetter in PITCH) {
+      bass = PITCH[bassLetter];
+      chord = chord_;
+    }
+    console.log("    BASS:", bass, chord);
   }
-  const partial = applyExtractionRules(chord);
-  return partial;
+
+  chord = chord.replace("m#", "#m");
+
+  const firstTwoCharacters = chord.slice(0, 2);
+  if (firstTwoCharacters in PITCH) {
+    root = PITCH[firstTwoCharacters];
+    chord = chord.slice(2);
+  } else {
+    if (chord[0] in PITCH) {
+      root = PITCH[chord[0]];
+      chord = chord.slice(1);
+    } else {
+      console.log("    ROOT NOT FOUND");
+      return null;
+    }
+  }
+
+  console.log("    ROOT", root);
+
+  // handle: m7b5, maj7b5,
+  if (chord === "m") {
+    triadQuality = "minor";
+  } else if (
+    chord === "m7b5" ||
+    chord === "maj7b5" ||
+    chord === "dim7" ||
+    chord === "dim"
+  ) {
+    triadQuality = "dim";
+  } else if (chord !== "") {
+    console.log("    NOT PARSED CORRECTLY", chord, sourceChord);
+  }
+
+  console.log("    QUALITY", triadQuality);
+
+  return { root, bass, triadQuality, properties };
 };
 
-for (const chord of CHORD_COUNTS) {
+for (const chord in CHORD_COUNTS) {
   const parsedChord = parseChord(chord);
   console.log(chord, CHORD_COUNTS[chord], parsedChord);
+  console.log();
 }
