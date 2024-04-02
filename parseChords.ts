@@ -126,6 +126,7 @@ const CHUNKS: string[] = [
   "/b13",
   'b13',
   "#9",
+  "M9", // maj7 + add9
 ];
 
 const parseChord = (chord: string): Chord | null => {
