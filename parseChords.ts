@@ -90,11 +90,16 @@ const CHUNKS: string[] = [
   "add+11",
   "add11",
   "add9-",
+  "add-9",
   "add9+",
+  "add+9",
   "add9",
   "add2",
   "add4",
   "add13-",
+  "add-13",
+  "addb13",
+  "add13b",
   "add13",
   "69",
   "6/9",
@@ -113,6 +118,11 @@ const CHUNKS: string[] = [
   "b9",
   "-9", // sometimes G-9 implies 7
   "*",
+  "/#9", // are these the bass?
+  "/#11",
+  "/#5",
+  "/b13",
+  "#9",
 ];
 
 const parseChord = (chord: string): Chord | null => {
