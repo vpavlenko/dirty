@@ -195,6 +195,9 @@ const parseChord = (chord: string): Chord | null => {
   } else if (chord === "11") {
     properties.push("7");
     properties.push("11");
+  } else if (chord === "13") {
+    properties.push("7");
+    properties.push("13");
   } else if (chord === "5") {
     properties.push("5");
   } else if (chord === "6") {
