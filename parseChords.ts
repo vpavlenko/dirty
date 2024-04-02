@@ -44,7 +44,7 @@ const extractChunk = (chord: string, chunk: string): [string, boolean] => {
   const regex = new RegExp(`\\(?${chunk}\\)?`);
 
   if (regex.test(chord)) {
-    return [chord.replace(chunk, ""), true];
+    return [chord.replace(regex, ""), true];
   }
   return [chord, false];
 };
@@ -104,6 +104,7 @@ const CHUNKS: string[] = [
   "maj", // maj7
   'M7', // maj7
   "2", // sus2
+  "4", // sus4
 ];
 
 const parseChord = (chord: string): Chord | null => {
@@ -158,7 +159,7 @@ const parseChord = (chord: string): Chord | null => {
     chord === "dim"
   ) {
     triadQuality = "dim";
-  } else if (chord === "m") {
+  } else if (chord === "m" || chord === "M") {
     triadQuality = "minor";
   } else if (chord === "m6") {
     triadQuality = "minor";
