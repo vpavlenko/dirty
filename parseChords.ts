@@ -110,11 +110,14 @@ const parseChord = (chord: string): Chord | null => {
   let root: PitchClass | null = null;
   let triadQuality: TriadQuality = "major";
 
+  for (const chunk of Object.keys(CHUNKS_TO_REPLACE) as (keyof typeof CHUNKS_TO_REPLACE)[]) {
+    chord = chord.replace(chunk, CHUNKS_TO_REPLACE[chunk])
+  } 
+
   for (const chunk of CHUNKS) {
     const [chord_, extracted] = extractChunk(chord, chunk);
     if (extracted) {
       properties.push(chunk);
-      console.log("    EXTRACTED ", chunk, chord_);
     }
     chord = chord_;
   }
@@ -125,7 +128,6 @@ const parseChord = (chord: string): Chord | null => {
       bass = PITCH[bassLetter];
       chord = chord_;
     }
-    console.log("    BASS:", bass, chord);
   }
 
   chord = chord.replace("m#", "#m");
