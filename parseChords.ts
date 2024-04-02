@@ -41,7 +41,9 @@ const CHUNKS_TO_REPLACE = {
 };
 
 const extractChunk = (chord: string, chunk: string): [string, boolean] => {
-  const regex = new RegExp(`\\(?${chunk.replace(/\+/g, '\\+').replace(/\*/g, '\\*')}\\)?`);
+  const regex = new RegExp(
+    `\\(?${chunk.replace(/\+/g, "\\+").replace(/\*/g, "\\*")}\\)?`
+  );
 
   if (regex.test(chord)) {
     return [chord.replace(regex, ""), true];
@@ -161,7 +163,12 @@ const parseChord = (chord: string): Chord | null => {
   if (
     chord === "min7b5" ||
     chord === "m7b5" ||
+    chord === "m7-5" ||
+    chord === "m5-" ||
+    chord === "m75-" ||
+    chord === "5-" ||
     chord === "maj7b5" ||
+    chord === "M7b5" ||
     chord === "dim7" ||
     chord === "dim" ||
     chord === "o"
