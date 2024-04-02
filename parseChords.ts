@@ -193,6 +193,12 @@ const parseChord = (chord: string): Chord | null => {
   } else if (chord === "m9") {
     triadQuality = "minor";
     properties.push("9");
+    // m7?
+  } else if (chord === "m11") {
+    triadQuality = "minor";
+    properties.push("11");
+    // mmaj11 is wrongly a maj
+    // m7?
   } else if (chord === "m7" || chord === "min7") {
     triadQuality = "minor";
     properties.push("m7");
