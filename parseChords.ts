@@ -37,11 +37,11 @@ const CHUNKS_TO_REPLACE = {
   LA: "A",
   SI: "B",
   SUS: "sus",
-  Maj: "maj"
+  Maj: "maj",
 };
 
 const extractChunk = (chord: string, chunk: string): [string, boolean] => {
-  const regex = new RegExp(`\\(?${chunk}\\)?`);
+  const regex = new RegExp(`\\(?${chunk.replace(/\+/g, '\\+')}\\)?`);
 
   if (regex.test(chord)) {
     return [chord.replace(regex, ""), true];
@@ -49,7 +49,7 @@ const extractChunk = (chord: string, chunk: string): [string, boolean] => {
   return [chord, false];
 };
 
-type TriadQuality = "major" | "minor" | "dim";
+type TriadQuality = "major" | "minor" | "dim" | "aug";
 
 type PitchClass = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11;
 
@@ -88,6 +88,7 @@ const CHUNKS: string[] = [
   "add+11",
   "add11",
   "add9-",
+  "add9+",
   "add9",
   "add2",
   "add4",
@@ -102,7 +103,7 @@ const CHUNKS: string[] = [
   "maj7",
   "maj9",
   "maj", // maj7
-  'M7', // maj7
+  "M7", // maj7
   "2", // sus2
   "4", // sus4
 ];
@@ -115,9 +116,11 @@ const parseChord = (chord: string): Chord | null => {
   let root: PitchClass | null = null;
   let triadQuality: TriadQuality = "major";
 
-  for (const chunk of Object.keys(CHUNKS_TO_REPLACE) as (keyof typeof CHUNKS_TO_REPLACE)[]) {
-    chord = chord.replace(chunk, CHUNKS_TO_REPLACE[chunk])
-  } 
+  for (const chunk of Object.keys(
+    CHUNKS_TO_REPLACE
+  ) as (keyof typeof CHUNKS_TO_REPLACE)[]) {
+    chord = chord.replace(chunk, CHUNKS_TO_REPLACE[chunk]);
+  }
 
   const firstTwoCharacters = chord.slice(0, 2);
   if (firstTwoCharacters in PITCH) {
@@ -156,18 +159,29 @@ const parseChord = (chord: string): Chord | null => {
     chord === "m7b5" ||
     chord === "maj7b5" ||
     chord === "dim7" ||
-    chord === "dim" || chord ==="o"
+    chord === "dim" ||
+    chord === "o"
   ) {
     // I don't distinguish dim7 and m7b5 as I don't care about types of seventh chords for now
     triadQuality = "dim";
-  } else if (chord === "m" || chord === "M" || chord==="min") {
+  } else if (
+    chord === "m" ||
+    chord === "M" ||
+    chord === "min" ||
+    chord === "mi"
+  ) {
     triadQuality = "minor";
+  } else if (chord === "aug" || chord === "+") {
+    triadQuality = "aug";
+  } else if (chord === "7+" || chord === "7+5") {
+    triadQuality = "aug";
+    properties.push("7");
   } else if (chord === "m6") {
     triadQuality = "minor";
-    properties.push('6');
+    properties.push("6");
   } else if (chord === "m9") {
     triadQuality = "minor";
-    properties.push('9');
+    properties.push("9");
   } else if (chord === "m7" || chord === "min7") {
     triadQuality = "minor";
     properties.push("m7");
