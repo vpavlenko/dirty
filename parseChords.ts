@@ -106,6 +106,8 @@ const CHUNKS: string[] = [
   "M7", // maj7
   "2", // sus2
   "4", // sus4
+  "b9",
+  "-9", // sometimes G-9 implies 7
 ];
 
 const parseChord = (chord: string): Chord | null => {
