@@ -37,6 +37,7 @@ const CHUNKS_TO_REPLACE = {
   LA: "A",
   SI: "B",
   SUS: "sus",
+  Maj: "maj"
 };
 
 const extractChunk = (chord: string, chunk: string): [string, boolean] => {
@@ -100,6 +101,9 @@ const CHUNKS: string[] = [
   "maj13",
   "maj7",
   "maj9",
+  "maj", // maj7
+  'M7', // maj7
+  "2", // sus2
 ];
 
 const parseChord = (chord: string): Chord | null => {
@@ -113,6 +117,20 @@ const parseChord = (chord: string): Chord | null => {
   for (const chunk of Object.keys(CHUNKS_TO_REPLACE) as (keyof typeof CHUNKS_TO_REPLACE)[]) {
     chord = chord.replace(chunk, CHUNKS_TO_REPLACE[chunk])
   } 
+
+  const firstTwoCharacters = chord.slice(0, 2);
+  if (firstTwoCharacters in PITCH) {
+    root = PITCH[firstTwoCharacters];
+    chord = chord.slice(2);
+  } else {
+    if (chord[0] in PITCH) {
+      root = PITCH[chord[0]];
+      chord = chord.slice(1);
+    } else {
+      console.log("    ROOT NOT FOUND");
+      return null;
+    }
+  }
 
   for (const chunk of CHUNKS) {
     const [chord_, extracted] = extractChunk(chord, chunk);
@@ -130,21 +148,7 @@ const parseChord = (chord: string): Chord | null => {
     }
   }
 
-  chord = chord.replace("m#", "#m");
-
-  const firstTwoCharacters = chord.slice(0, 2);
-  if (firstTwoCharacters in PITCH) {
-    root = PITCH[firstTwoCharacters];
-    chord = chord.slice(2);
-  } else {
-    if (chord[0] in PITCH) {
-      root = PITCH[chord[0]];
-      chord = chord.slice(1);
-    } else {
-      console.log("    ROOT NOT FOUND");
-      return null;
-    }
-  }
+  // chord = chord.replace("m#", "#m");
 
   if (
     chord === "min7b5" ||
@@ -156,6 +160,12 @@ const parseChord = (chord: string): Chord | null => {
     triadQuality = "dim";
   } else if (chord === "m") {
     triadQuality = "minor";
+  } else if (chord === "m6") {
+    triadQuality = "minor";
+    properties.push('6');
+  } else if (chord === "m9") {
+    triadQuality = "minor";
+    properties.push('9');
   } else if (chord === "m7" || chord === "min7") {
     triadQuality = "minor";
     properties.push("m7");
