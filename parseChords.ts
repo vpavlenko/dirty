@@ -26,6 +26,7 @@ const PITCH: { [key: string]: PitchClass } = {
   a: 9,
   b: 11,
   С: 0,
+  H: 11,
 };
 
 const CHUNKS_TO_REPLACE = {
@@ -208,6 +209,10 @@ const parseChord = (chord: string): Chord | null => {
   } else if (chord === "m7+" || chord === "m#7") {
     triadQuality = "minor";
     properties.push("maj7");
+  } else if (chord === "9-") {
+    triadQuality = "major";
+    properties.push("7");
+    properties.push("b9");
   } else if (chord === "aug" || chord === "+" || chord === "+5") {
     triadQuality = "aug";
   } else if (chord === "7+" || chord === "7+5") {
